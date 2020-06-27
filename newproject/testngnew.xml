@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="DemoWebShop" verbose="4" >
+
+
+<test name="Demo Login" >
+  <classes>
+       <class name="testcases.LoginPage" />
+       
+    </classes>
+  </test>
+  
+  <test name="Demo Profile" >
+  <classes>
+       
+       <class name="testcases.MyAccountPage" />
+    </classes>
+  </test>
+ 
+ 
+</suite>
